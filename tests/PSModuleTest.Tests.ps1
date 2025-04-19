@@ -17,9 +17,9 @@ Describe 'Module' {
         New-PSModuleTest -Name 'World' | Should -Be 'Hello, World!'
     }
     It 'Function: Set-PSModuleTest' {
-        Set-PSModuleTest -Name 'World' | Should -Be 'Hello, World!'
+        Set-PSModuleTest -Name 'World' | Should -Be 'Hey, World!'
     }
     It 'Function: Test-PSModuleTest' {
-        Test-PSModuleTest -Name 'World' | Should -Be 'Hey, World!'
+        Test-PSModuleTest -Name 'World' | Should -Be 'Hello, World!'
     }
 }
