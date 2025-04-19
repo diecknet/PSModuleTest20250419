@@ -18,5 +18,5 @@
         [Parameter(Mandatory)]
         [string] $Name
     )
-    Write-Output "Hello, $Name!"
+    Write-Output "Hey, $Name!"
 }

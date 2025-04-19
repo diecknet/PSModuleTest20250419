@@ -20,6 +20,6 @@ Describe 'Module' {
         Set-PSModuleTest -Name 'World' | Should -Be 'Hello, World!'
     }
     It 'Function: Test-PSModuleTest' {
-        Test-PSModuleTest -Name 'World' | Should -Be 'Hello, World!'
+        Test-PSModuleTest -Name 'World' | Should -Be 'Hey, World!'
     }
 }
