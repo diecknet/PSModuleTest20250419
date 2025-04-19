@@ -31,6 +31,7 @@ function New-PSModuleTest {
 }
 
 New-Alias New-PSModuleTestAlias3 New-PSModuleTest
+New-Alias New-PSModuleTestAlias3000 New-PSModuleTest
 New-Alias -Name New-PSModuleTestAlias4 -Value New-PSModuleTest
 
 
