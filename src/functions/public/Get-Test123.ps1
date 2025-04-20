@@ -1,3 +1,4 @@
+#Requires -Version 7.5
 function Get-Test123 {
     <#
         .SYNOPSIS
